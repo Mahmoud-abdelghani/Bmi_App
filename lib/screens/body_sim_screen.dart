@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class BodySimScreen extends StatefulWidget {
   const BodySimScreen({super.key});
@@ -10,6 +11,10 @@ class BodySimScreen extends StatefulWidget {
 class _BodySimScreenState extends State<BodySimScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Text('BodySimScreen'),
+      ),
+    );
   }
 }
