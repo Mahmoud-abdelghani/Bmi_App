@@ -11,6 +11,6 @@ class BodySimScreen extends StatefulWidget {
 class _BodySimScreenState extends State<BodySimScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('BodySimScreen android')));
+    return Scaffold(body: Center(child: Text('BodySimScreen android  ')));
   }
 }
